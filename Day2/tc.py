@@ -59,3 +59,14 @@ n = len(arr)
 # Function Call
 countFreq(arr, n)
 
+
+#Finding the sum of array
+def array_sum(arr):
+    total = 0
+    for num in arr:
+        total += num
+    return total
+
+input_array = [1, 2, 3, 4, 5]
+result = array_sum(input_array)
+print(result)
