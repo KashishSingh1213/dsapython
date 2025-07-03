@@ -34,3 +34,14 @@ while num>0:
     result=(result*10)+ld
     num = num//10
     print('the value of n is:',result)
+    
+    
+# the question is 222
+n=222
+num=n
+result=0
+while num>0:
+    ld=num%10
+    result=(result*10)+ld
+    num = num//10
+    print("the value is",result)
