@@ -16,3 +16,24 @@ def function(count):
     function(count + 1)
 
 function(0)
+
+
+
+#print 1 to n using recursion
+def function(i, n):
+    if i > n:
+        return
+    print(i)
+    function(i + 1, n)
+
+function(1, 4)
+
+#print 1 to n using recursion
+#backtracking
+def function(i, n):
+    if i > n:
+        return
+    function(i + 1, n)  # Recursive call first
+    print(i)            # Backtracking: print after the call
+
+function(1, 4)
