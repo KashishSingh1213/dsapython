@@ -17,3 +17,22 @@ while num > 0:
     num = num // 10
 
 print("Number of digits:", count)
+
+
+
+#count no. 
+def count_digits(n):
+    # Base case
+    if n == 0:
+        return 0
+    # Recursive case
+    return 1 + count_digits(n // 10)
+
+# Example number
+num = 13456
+
+# Special case for 0
+if num == 0:
+    print("Number of digits: 1")
+else:
+    print("Number of digits:", count_digits(num))
