@@ -45,3 +45,27 @@ while num>0:
     result=(result*10)+ld
     num = num//10
     print("the value is",result)
+
+
+
+
+#solve the question of palindrome
+def is_palindrome_number(n):
+    original = n
+    reverse = 0
+
+    while n > 0:
+        digit = n % 10
+        reverse = reverse * 10 + digit
+        n = n // 10
+
+    return original == reverse
+
+# Example number
+num = 13431
+
+# Check and print result
+if is_palindrome_number(num):
+    print(f"{num} is a palindrome.")
+else:
+    print(f"{num} is not a palindrome.")
