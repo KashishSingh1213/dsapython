@@ -35,3 +35,10 @@ print("Original array:", arr)
 merge_sort(arr)
 print("Sorted array:", arr)
 print("Merge sort completed.")
+
+# Another example
+arr2 = [5, 2, 4, 6, 1, 3]
+print("Original array 2:", arr2)
+merge_sort(arr2)
+print("Sorted array 2:", arr2)
+print("Merge sort completed.")
