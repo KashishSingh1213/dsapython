@@ -1,4 +1,4 @@
-#selection sort
+# Selection sort
 
 def selection_sort(arr):
     n = len(arr)
