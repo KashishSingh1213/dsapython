@@ -19,3 +19,9 @@ arr2 = [5, 2, 8, 1, 9, 3]
 print("\nOriginal array 2:", arr2)
 insertion_sort(arr2)
 print("Sorted array 2:", arr2)
+
+# Question: Sort the following array using insertion sort and print the result
+arr3 = [12, 4, 7, 3, 15, 2]
+print("\nOriginal array 3:", arr3)
+insertion_sort(arr3)
+print("Sorted array 3:", arr3)
