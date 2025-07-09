@@ -34,3 +34,4 @@ arr = [38, 27, 43, 3, 9, 82, 10]
 print("Original array:", arr)
 merge_sort(arr)
 print("Sorted array:", arr)
+print("Merge sort completed.")
