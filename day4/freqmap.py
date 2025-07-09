@@ -23,3 +23,4 @@ for num in nums:
         hashmap[num] = 1
 
 print("Frequency using HashMap:",hashmap)
+print("Frequency of 5:", hashmap.get(5, 0))  # Get frequency of 5, default to 0 if not found
