@@ -41,3 +41,17 @@ if result==n:
     print("the number is armstrong")
 else:
     print("the number is not armstrong")
+
+#lets take a example of 407
+n=407
+num=n
+result=0
+while num>0:
+    digit=num%10
+    result+=digit**3
+    num=num//10
+
+if result==n:
+    print("the number is armstrong")
+else:
+    print("the number is not armstrong")
