@@ -70,3 +70,14 @@ def array_sum(arr):
 input_array = [1, 2, 3, 4, 5]
 result = array_sum(input_array)
 print(result)
+
+# Finding the maximum element in an array
+def find_max(arr):  
+    max_value = arr[0]
+    for num in arr:
+        if num > max_value:
+            max_value = num
+    return max_value
+input_array = [1, 2, 3, 4, 5]
+result = find_max(input_array)
+print(result)

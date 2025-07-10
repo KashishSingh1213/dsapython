@@ -19,4 +19,6 @@ else:
     print("grade F")
 
 
-    
+    marks =  75
+    if(marks>90):
+    print("grade A")

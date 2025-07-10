@@ -43,3 +43,5 @@ print(x) # this is the type of memoryview
 x= None
 print(x) # this is the type of NoneType
 
+x = type(None)
+print(x) # this is the type of NoneType

@@ -69,3 +69,17 @@ if is_palindrome_number(num):
     print(f"{num} is a palindrome.")
 else:
     print(f"{num} is not a palindrome.")
+
+
+# Function to check if a number is a palindrome
+def is_palindrome(n):
+    original = n
+    reverse = 0
+
+    while n > 0:
+        digit = n % 10
+        reverse = reverse * 10 + digit
+        n = n // 10
+
+    return original == reverse
+    

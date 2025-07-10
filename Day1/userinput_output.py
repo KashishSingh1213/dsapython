@@ -5,4 +5,5 @@ print("hello", x)
 x= input("enter your age")
 print("age",+x)
 
-
+x= input("enter your city")
+print("city",x)

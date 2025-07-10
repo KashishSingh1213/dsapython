@@ -36,3 +36,13 @@ if num == 0:
     print("Number of digits: 1")
 else:
     print("Number of digits:", count_digits(num))
+
+
+# Extracting digits from a number
+def extract_digits(n):
+    digits = []
+    while n > 0:
+        last_digit = n % 10
+        digits.append(last_digit)
+        n = n // 10
+    return digits[::-1]  # Reverse to maintain original order

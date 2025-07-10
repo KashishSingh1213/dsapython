@@ -27,3 +27,17 @@ if result==n:
     print("the number is armstrong")
 else:
     print("the number is not armstrong")
+
+#lets take a example of 9474
+n=9474
+num=n
+result=0
+while num>0:
+    digit=num%10
+    result+=digit**4
+    num=num//10
+
+if result==n:
+    print("the number is armstrong")
+else:
+    print("the number is not armstrong")
