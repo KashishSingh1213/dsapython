@@ -82,4 +82,10 @@ def is_palindrome(n):
         n = n // 10
 
     return original == reverse
-    
+
+# Example usage
+number = 12321
+if is_palindrome(number):
+    print(f"{number} is a palindrome.")
+else:
+    print(f"{number} is not a palindrome.")
