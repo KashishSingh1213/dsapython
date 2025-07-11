@@ -15,3 +15,12 @@ def is_sorted(arr):
             return False
     return True
 print(is_sorted(num2))  # Output: False
+
+# Explanation:
+# The function is_sorted checks if the given array is sorted in ascending order.
+# It iterates through the array and compares each element with the next one.
+# If it finds any element greater than the next, it returns False (not sorted).
+# Otherwise, it returns True (sorted).
+# Example outputs:
+# num is sorted, so is_sorted(num) returns True.
+# num2 is not sorted (last element is 0), so is_sorted(num2) returns False.
