@@ -48,3 +48,19 @@ print(left_rotate([1, 2, 3, 4, 5]))  # Output: [2, 3, 4, 5, 1]
 # The array [1, 2, 3, 4, 5] becomes
 # [2, 3, 4, 5, 1] after the left
 # rotation.
+
+#right rotate array by k places
+def right_rotate_k(arr, k):
+    n = len(arr)
+    if n == 0:
+        return arr
+    k = k % n  # Handle cases where k is greater than n
+    return arr[-k:] + arr[:-k]
+print(right_rotate_k([1, 2, 3, 4, 5], 2))  # Output: [4, 5, 1, 2, 3]
+# Explanation:  
+# The function right_rotate_k takes an array and rotates it to the right by k positions.
+# It calculates the effective rotation by taking k modulo the length of the array.
+# The last k elements are moved to the front, and the rest are shifted accordingly.
+# Example outputs:
+# The array [1, 2, 3, 4, 5] becomes
+# [4, 5, 1, 2, 3] after the right rotation.
