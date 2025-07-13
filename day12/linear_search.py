@@ -49,3 +49,10 @@ def find_missing_number(arr, n):
     array_sum = sum(arr)
     return total_sum - array_sum
 print(find_missing_number([1, 2, 4, 5], 5))  # Output: 3
+
+
+# Explanation:
+# The function linear_search iterates through the array and checks each element against the target.
+# If it finds the target, it returns the index; otherwise, it returns -1.
+# The function merge_sorted_arrays merges two sorted arrays into one sorted array.
+# The function find_missing_number calculates the expected sum of numbers from 1 to n and subtract
