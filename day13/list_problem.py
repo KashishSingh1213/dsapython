@@ -13,3 +13,8 @@ for i in range(len(nums)):
 
 print("Max consecutive ones:", max_count)
 
+#explantion
+# The code iterates through the list of numbers and counts consecutive ones.s the actual sum to find the missing number.
+# The function find_max_consecutive_ones counts the maximum number of consecutive ones in a binary array.s the actual sum to find the missing number.
+# The function find_max_consecutive_ones counts the maximum number of consecutive ones in a binary array.
+
