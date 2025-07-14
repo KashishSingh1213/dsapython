@@ -10,3 +10,7 @@ def two_sum(nums, target):
         num_map[num] = i
     return []
 print(two_sum(nums, target))  # Output: [0, 1] (because nums[0] + nums[1] = 2 + 7 = 9)
+
+# Explanation:
+# The function two_sum uses a dictionary to store the indices of the numbers.
+# It iterates through the list, calculating the complement for each number.
