@@ -25,3 +25,12 @@ print(two_sum(nums, target))  # Output: [0, 1] (because nums[0] + nums[1] = 2 + 
 # If no two numbers add up to the target, it returns an empty list.
 # For example, if nums = [1, 2, 3] and target = 7, the output would be [] since no two numbers sum to 7.
 # The function efficiently finds the indices of the two numbers that add up to the target using a single pass through the list.
+
+
+#next example
+# Example with no solution
+nums2 = [1, 2, 3, 4]
+target2 = 8
+print(two_sum(nums2, target2))  # Output: [] (no two numbers sum to 8)
+# Explanation:
+# In this case, the function iterates through the list but finds no two numbers that add
