@@ -17,3 +17,11 @@ print(two_sum(nums, target))  # Output: [0, 1] (because nums[0] + nums[1] = 2 + 
 
 # If the complement is found in the dictionary, it returns the indices of the two numbers.
 # If no such pair exists, it returns an empty list.
+
+
+# Example outputs:
+# For nums = [2, 7, 11, 15, 12, 4, 2] and target = 9, the output is [0, 1] because nums[0] + nums[1] = 2 + 7 = 9.
+# If the input is changed to nums = [1, 2, 3, 4] and target = 5, the output would be [1, 2] because nums[1] + nums[2] = 2 + 3 = 5.
+# If no two numbers add up to the target, it returns an empty list.
+# For example, if nums = [1, 2, 3] and target = 7, the output would be [] since no two numbers sum to 7.
+# The function efficiently finds the indices of the two numbers that add up to the target using a single pass through the list.
