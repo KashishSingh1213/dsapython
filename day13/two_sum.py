@@ -14,3 +14,6 @@ print(two_sum(nums, target))  # Output: [0, 1] (because nums[0] + nums[1] = 2 + 
 # Explanation:
 # The function two_sum uses a dictionary to store the indices of the numbers.
 # It iterates through the list, calculating the complement for each number.
+
+# If the complement is found in the dictionary, it returns the indices of the two numbers.
+# If no such pair exists, it returns an empty list.
