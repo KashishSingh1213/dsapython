@@ -32,3 +32,21 @@ for num in num_set:
         max_length = max(max_length, current_length)
 
 print("Longest consecutive sequence length (optimal):", max_length)
+
+
+#longest consecutive sequence using brute force
+nums = [1, 99, 101, 98, 2, 5    , 99, 100]
+max_length = 0
+
+for num in nums:
+    current = num
+    current_length = 1
+
+    # Check next numbers in sequence
+    while current + 1 in nums:
+        current += 1
+        current_length += 1
+
+    max_length = max(max_length, current_length)
+
+print("Longest consecutive sequence length (brute force):", max_length)
