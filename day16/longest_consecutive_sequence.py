@@ -90,4 +90,6 @@ print("Longest consecutive sequence length (optimal):", max_length)
 # The brute force solution checks each number and counts how many consecutive numbers follow it.
 # The optimal solution uses a set to check if a number is the start of a sequence,
 # which reduces the time complexity significantly.
-# The optimal solution has a time complexity of O(n) compared to the brute force O(n
+# The optimal solution has a time complexity of O(n) compared to the brute force O(n)
+# solution.
+# The output of each function is printed
