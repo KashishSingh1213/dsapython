@@ -68,3 +68,5 @@ for num in num_set:
         max_length = max(max_length, current_length)
 
 print("Longest consecutive sequence length (optimal):", max_length)
+
+#solve another example
