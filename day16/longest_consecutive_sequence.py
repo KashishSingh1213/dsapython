@@ -82,3 +82,10 @@ print("Longest consecutive sequence length (optimal):", max_length)
 
 #solve another example
 >>>>>>> 8ec3498cc91d29801439eea4769e3ef62b1b1a5a
+
+
+
+
+#explation
+# The brute force solution checks each number and counts how many consecutive numbers follow it.
+# The optimal solution uses a set to check if a number is the start of a sequence,
