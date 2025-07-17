@@ -32,3 +32,4 @@ for num in num_set:
         max_length = max(max_length, current_length)
 
 print("Longest consecutive sequence length (optimal):", max_length)
+# The output of each function is printed
