@@ -129,3 +129,4 @@ if __name__ == "__main__":
 print("Longest consecutive sequence length (brute force):", max_length)
 
 # time complexity: O(n^2)
+# The optimal solution uses the first row and column to mark zeroes, reducing space complexity to O(1).
