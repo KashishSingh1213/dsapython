@@ -55,3 +55,4 @@ if __name__ == "__main__":
 
         #explation
 # The brute force solution iterates through the matrix to find zeroes and then sets the corresponding rows and columns to zero.
+# The time complexity is O(m*n*(m+n)) due to the nested loops for finding zeroes and setting rows/columns.
