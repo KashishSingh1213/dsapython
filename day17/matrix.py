@@ -52,3 +52,6 @@ if __name__ == "__main__":
     print("\nAfter setting zeroes:")
     for row in matrix2:
         print(row)
+
+        #explation
+# The brute force solution iterates through the matrix to find zeroes and then sets the corresponding rows and columns to zero.
