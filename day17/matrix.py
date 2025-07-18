@@ -127,3 +127,5 @@ if __name__ == "__main__":
         print(row)
     max_length = max(max_length, current_length)
 print("Longest consecutive sequence length (brute force):", max_length)
+
+# time complexity: O(n^2)
