@@ -93,3 +93,7 @@ print("Longest consecutive sequence length (optimal):", max_length)
 # The optimal solution has a time complexity of O(n) compared to the brute force O(n)
 # solution.
 # The output of each function is printed
+
+
+# This code sets matrix elements to zero based on the presence of zeroes in the matrix.
+# The brute force solution has a time complexity of O(m*n*(m+n)) and space
