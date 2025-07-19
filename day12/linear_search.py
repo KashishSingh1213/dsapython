@@ -56,3 +56,7 @@ print(find_missing_number([1, 2, 4, 5], 5))  # Output: 3
 # If it finds the target, it returns the index; otherwise, it returns -1.
 # The function merge_sorted_arrays merges two sorted arrays into one sorted array.
 # The function find_missing_number calculates the expected sum of numbers from 1 to n and subtract
+
+#solve linear search
+#s the actual sum of the array to find the missing number.
+# The output of each function is printed    
