@@ -136,3 +136,5 @@ print("Longest consecutive sequence length (brute force):", max_length)
 # This code sets matrix elements to zero based on the presence of zeroes in the matrix.
 # The brute force solution has a time complexity of O(m*n*(m+n)) and space
 # complexity of O(m+n).
+# The optimal solution has a time complexity of O(m*n) and space complexity of O(1).
+# The brute force solution iterates through the matrix to find zeroes and then sets the corresponding
