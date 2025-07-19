@@ -130,3 +130,8 @@ print("Longest consecutive sequence length (brute force):", max_length)
 
 # time complexity: O(n^2)
 # The optimal solution uses the first row and column to mark zeroes, reducing space complexity to O(1).
+
+
+#solve another question
+# This code sets matrix elements to zero based on the presence of zeroes in the matrix.
+# The brute force solution has a time complexity of O(m*n*(m+n)) and space
