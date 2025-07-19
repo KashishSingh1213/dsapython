@@ -78,3 +78,4 @@ def move_zeroes_to_end(arr):
 print(move_zeroes_to_end([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
 # Explanation:
 # The function move_zeroes_to_end iterates through the array and moves all non-zero elements
+# to the front, keeping track of the index for non-zero elements.
