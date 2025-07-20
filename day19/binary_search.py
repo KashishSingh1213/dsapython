@@ -47,3 +47,5 @@ else:
 
 #explanation
 # The binary_search function takes a sorted array and a target value as input.
+# It uses a while loop to repeatedly divide the search interval in half.
+# If the target value is found, it returns the index; otherwise, it returns -1
