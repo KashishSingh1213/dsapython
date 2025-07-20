@@ -66,4 +66,6 @@ def binary_search_iterative(nums,target):
         else:
             high=mid-1
     return -1
-    
+
+    #explation
+# The binary_search_iterative function performs a binary search on a sorted list.
