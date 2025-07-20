@@ -45,3 +45,5 @@ if result != -1:
 else:
     print("Element not found in the array")
 
+#explanation
+# The binary_search function takes a sorted array and a target value as input.
