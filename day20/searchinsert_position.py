@@ -17,3 +17,4 @@ def search_insert(nums,target):
 printf("The target element %d should be inserted at index %d\n", 20, search_insert(nums,20))
 
 #time complexity: O(log n)
+#space complexity: O(1)
