@@ -50,3 +50,4 @@ print("The floor of the target element %d is at index %d and the ceil is at inde
 
 
 #time complexity: O(log n)
+#space complexity: O(1)
