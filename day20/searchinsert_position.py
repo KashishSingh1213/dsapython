@@ -51,3 +51,23 @@ print("The floor of the target element %d is at index %d and the ceil is at inde
 
 #time complexity: O(log n)
 #space complexity: O(1)
+
+
+#optimal solution
+def find_floor_and_ceil(arr, target):
+    low, high = 0, len(arr) - 1
+    floor_val, ceil_val = -1, -1
+
+    while low <= high:
+        mid = (low + high) // 2
+
+        if arr[mid] == target:
+            return arr[mid], arr[mid]  # Exact match is both floor and ceil
+        elif arr[mid] < target:
+            floor_val = arr[mid]
+            low = mid + 1
+        else:
+            ceil_val = arr[mid]
+            high = mid - 1
+
+    return floor_val, ceil_val
