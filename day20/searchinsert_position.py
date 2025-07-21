@@ -49,3 +49,4 @@ def search_floor_ceil(nums, target):
 print("The floor of the target element %d is at index %d and the ceil is at index %d" % (target, *search_floor_ceil(nums, target)))
 
 
+#time complexity: O(log n)
