@@ -18,3 +18,34 @@ printf("The target element %d should be inserted at index %d\n", 20, search_inse
 
 #time complexity: O(log n)
 #space complexity: O(1)
+
+
+
+#another question for binary search
+#ceil the floor of the array
+nums=[3,4,4,4,8,9,9,10,12,12,14,15]
+target = 8
+floor=8
+ceil=8
+def search_floor_ceil(nums, target):
+    low = 0
+    high = len(nums) - 1
+    floor = -1
+    ceil = -1
+    
+    while low <= high:
+        mid = (low + high) // 2
+        
+        if nums[mid] == target:
+            return mid, mid  # Found both floor and ceil at the same index
+        elif nums[mid] < target:
+            floor = mid  # Update floor
+            low = mid + 1
+        else:
+            ceil = mid  # Update ceil
+            high = mid - 1
+            
+    return floor, ceil
+print("The floor of the target element %d is at index %d and the ceil is at index %d" % (target, *search_floor_ceil(nums, target)))
+
+
