@@ -114,3 +114,25 @@ def setZeroesOptimal(matrix):
     if col_zero:
         for i in range(m):
             matrix[i][0] = 0
+
+
+    # Test the optimal function
+if __name__ == "__main__":
+    # Test case 1
+    matrix1 = [[1,1,1],[1,0,1],[1,1,1]]
+    print("Original matrix:")
+    for row in matrix1:
+        print(row)
+    
+    setZeroesOptimal(matrix1)
+    print("\nAfter setting zeroes:")
+    for row in matrix1:
+        print(row)
+    
+    # Test case 2
+    matrix2 = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+    print("\nOriginal matrix:")
+    for row in matrix2:
+        print(row)
+    
+    setZeroesOptimal(matrix2)
