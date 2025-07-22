@@ -137,3 +137,6 @@ if __name__ == "__main__":
     
     setZeroesOptimal(matrix2)
     print("\nAfter setting zeroes:")
+    for row in matrix2:
+        print(row)
+        
