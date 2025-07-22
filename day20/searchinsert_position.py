@@ -139,4 +139,7 @@ if __name__ == "__main__":
     print("\nAfter setting zeroes:")
     for row in matrix2:
         print(row)
-        
+
+#search insert position
+def printf(format, *args):  
+    print(format % args)
