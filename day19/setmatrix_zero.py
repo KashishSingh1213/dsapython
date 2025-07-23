@@ -24,3 +24,7 @@ def setZeroes(matrix):
             matrix[i][j] = 0
 
     return matrix
+
+
+#explanation
+#time complexity: O(m*n)
