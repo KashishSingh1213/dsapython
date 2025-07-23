@@ -69,3 +69,4 @@ def setZeroesOptimal(matrix):
     if col_zero:
         for i in range(m):
             matrix[i][0] = 0
+    # Test the optimal function
