@@ -93,3 +93,4 @@ if __name__ == "__main__":
     for row in matrix2:
         print(row)
 # This code sets the entire row and column to zero if any element in that row or column is zero.
+# This is an optimal solution that uses the first row and column to mark which rows and columns should be zeroed.
