@@ -92,3 +92,4 @@ if __name__ == "__main__":
     print("\nAfter setting zeroes:")
     for row in matrix2:
         print(row)
+# This code sets the entire row and column to zero if any element in that row or column is zero.
