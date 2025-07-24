@@ -17,3 +17,5 @@ if __name__ == "__main__":
     print(reverse_integer(120))   # Output: 21
     print(reverse_integer(0))     # Output: 0
     print(reverse_integer(1534236469))  # Output: 0 (out of bounds)
+# Explanation
+# The function reverses the digits of a given integer while preserving its sign.
