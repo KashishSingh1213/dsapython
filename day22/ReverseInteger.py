@@ -9,4 +9,11 @@ def reverse_integer(x: int) -> int:
         reversed_x = reversed_x * 10 + digit
     reversed_x *= sign
     return reversed_x if -2**31 <= reversed_x <= 2**31 - 1 else 0
-    
+
+# Example usage
+if __name__ == "__main__":
+    print(reverse_integer(123))   # Output: 321
+    print(reverse_integer(-123))  # Output: -321
+    print(reverse_integer(120))   # Output: 21
+    print(reverse_integer(0))     # Output: 0
+    print(reverse_integer(1534236469))  # Output: 0 (out of bounds)
