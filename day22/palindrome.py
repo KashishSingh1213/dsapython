@@ -27,3 +27,4 @@ print("Longest palindrome substring:", longestPalindrome("cbbd"))    # Example u
 
 # explanation
 # time complexity: O(n^2)
+# space complexity: O(1)
