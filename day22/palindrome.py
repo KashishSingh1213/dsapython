@@ -22,3 +22,4 @@ def longestPalindrome(s: str) -> str:
         expand_around_center(i, i + 1) # Even length palindrome
 
     return s[start:start + max_length]
+print("Longest palindrome substring:", longestPalindrome("babad"))  # Example usage
