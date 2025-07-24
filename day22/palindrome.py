@@ -23,3 +23,4 @@ def longestPalindrome(s: str) -> str:
 
     return s[start:start + max_length]
 print("Longest palindrome substring:", longestPalindrome("babad"))  # Example usage
+print("Longest palindrome substring:", longestPalindrome("cbbd"))    # Example usage
