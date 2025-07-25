@@ -14,3 +14,4 @@ def romanToInt(s: str) -> int:
             total += curr
         prev = curr
     return total
+#time complexity: O(n) where n is the length of the string
