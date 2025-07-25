@@ -15,3 +15,4 @@ def romanToInt(s: str) -> int:
         prev = curr
     return total
 #time complexity: O(n) where n is the length of the string
+#space complexity: O(1) since the size of the dictionary is fixed
