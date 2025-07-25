@@ -17,3 +17,4 @@ def intToRoman(num: int) -> str:
             num -= val[i]
         i += 1
     return roman
+#time complexity: O(1) since the number of symbols is fixed
