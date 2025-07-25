@@ -9,3 +9,4 @@ def longestCommonPrefix(strs: list[str]) -> str:
                 return ""
     return prefix
 #time complexity: O(S) where S is the sum of all characters in all strings
+# space complexity: O(1) since we are using a constant amount of space for the prefix variable
