@@ -8,3 +8,4 @@ def longestCommonPrefix(strs: list[str]) -> str:
             if not prefix:
                 return ""
     return prefix
+#time complexity: O(S) where S is the sum of all characters in all strings
