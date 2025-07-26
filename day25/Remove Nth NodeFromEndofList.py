@@ -23,3 +23,4 @@ def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
     slow.next = slow.next.next
 
     return dummy.next
+# time complexity: O(L) where L is the length of the linked list
