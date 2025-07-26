@@ -19,3 +19,4 @@ def isMatch(s: str, p: str) -> bool:
 
     return dp[m][n]
 # time complexity: O(m * n) where m is the length of s and n is the length of p
+#space complexity: O(m * n) for the dp table used to store results of subproblems
