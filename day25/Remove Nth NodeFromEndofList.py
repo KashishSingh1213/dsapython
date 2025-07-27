@@ -25,3 +25,4 @@ def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
     return dummy.next
 # time complexity: O(L) where L is the length of the linked list
 # space complexity: O(1) since we are using a constant amount of space
+# Test the function
