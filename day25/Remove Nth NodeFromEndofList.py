@@ -88,3 +88,6 @@ def setZeroesOptimal(matrix):
     # Return the modified matrix
     return matrix
     print("\nAfter setting zeroes:")
+
+    for row in matrix2:
+        print(row)
