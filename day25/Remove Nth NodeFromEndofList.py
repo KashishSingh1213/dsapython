@@ -96,4 +96,12 @@ def setZeroesOptimal(matrix):
         print(row)
         print(row)
         print(row)
-        
+
+
+        # Test case 3
+    matrix3 = [[1,2,3],[4,5,6],[7,8,9]]
+    print("\nOriginal matrix:")
+    for row in matrix3:
+        print(row)
+        setZeroesOptimal(matrix3)
+    print("\nAfter setting zeroes:")
