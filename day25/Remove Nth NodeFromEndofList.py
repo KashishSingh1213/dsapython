@@ -105,3 +105,6 @@ def setZeroesOptimal(matrix):
         print(row)
         setZeroesOptimal(matrix3)
     print("\nAfter setting zeroes:")
+    for row in matrix3:
+        print(row)
+        print(row)
