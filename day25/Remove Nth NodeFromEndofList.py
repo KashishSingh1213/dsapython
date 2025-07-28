@@ -91,3 +91,9 @@ def setZeroesOptimal(matrix):
 
     for row in matrix2:
         print(row)
+        print(row)
+        print(row)
+        print(row)
+        print(row)
+        print(row)
+        
