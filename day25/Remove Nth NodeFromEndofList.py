@@ -108,3 +108,7 @@ def setZeroesOptimal(matrix):
     for row in matrix3:
         print(row)
         print(row)
+
+
+
+        #time complexity: O(m * n) where m is the number of rows and n is the number of columns
