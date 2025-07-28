@@ -112,3 +112,4 @@ def setZeroesOptimal(matrix):
 
 
         #time complexity: O(m * n) where m is the number of rows and n is the number of columns
+        #space complexity: O(1) since we are modifying the matrix in place
