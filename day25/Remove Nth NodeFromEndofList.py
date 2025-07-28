@@ -84,4 +84,7 @@ def setZeroesOptimal(matrix):
     if col_zero:
         for i in range(m):
             matrix[i][0] = 0
-    
+
+    # Return the modified matrix
+    return matrix
+    print("\nAfter setting zeroes:")
