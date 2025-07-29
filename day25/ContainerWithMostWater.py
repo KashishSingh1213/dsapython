@@ -25,3 +25,7 @@ if __name__ == "__main__":
     result = maxArea(heights)
     
     print(f"The maximum area of water that can be contained is: {result}")
+
+    # Test case 1
+    heights1 = [1,1]    
+    print("Test case 1 result:", maxArea(heights1))  # Expected: 1
