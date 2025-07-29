@@ -41,3 +41,6 @@ if __name__ == "__main__":
     # Test case 5
     heights5 = [5,4,3,2,1]
     print("Test case 5 result:", maxArea(heights5))  # Expected: 6
+    # Test case 6
+    heights6 = [1,3,2,5,4]
+    print("Test case 6 result:", maxArea(heights6))  # Expected: 12
