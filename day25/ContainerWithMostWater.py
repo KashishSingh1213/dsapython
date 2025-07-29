@@ -29,3 +29,6 @@ if __name__ == "__main__":
     # Test case 1
     heights1 = [1,1]    
     print("Test case 1 result:", maxArea(heights1))  # Expected: 1
+    # Test case 2
+    heights2 = [4,3,2,1,4]
+    print("Test case 2 result:", maxArea(heights2))  # Expected: 16
