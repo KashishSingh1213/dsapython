@@ -15,3 +15,13 @@ def maxArea(height: list[int]) -> int:
             right -= 1
 
     return max_water
+
+# Test the function
+if __name__ == "__main__":
+    # Example heights
+    heights = [1,8,6,2,5,4,8,3,7]
+    
+    # Calculate the maximum area of water that can be contained
+    result = maxArea(heights)
+    
+    print(f"The maximum area of water that can be contained is: {result}")
