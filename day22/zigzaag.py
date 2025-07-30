@@ -32,4 +32,7 @@ if __name__ == "__main__":
     for s, numRows in test_cases:
         result = convert(s, numRows)
         print(f"convert({s}, {numRows}) = {result}")
-        
+
+# Example outputs:
+# convert(PAYPALISHIRING, 3) = PAHNAPLSIIGYIR
+# convert(PAYPALISHIRING, 4) = PINALSIGYAHRPI
