@@ -36,3 +36,5 @@ if __name__ == "__main__":
 # Example outputs:
 # convert(PAYPALISHIRING, 3) = PAHNAPLSIIGYIR
 # convert(PAYPALISHIRING, 4) = PINALSIGYAHRPI
+# convert(A, 1) = A
+# convert(AB, 1) = AB   
