@@ -15,6 +15,8 @@ def search_insert(nums,target):
             high=mid-1
     return low
 printf("The target element %d should be inserted at index %d\n", 20, search_insert(nums,20))
+# Additional example
+printf("The target element %d should be inserted at index %d\n", 7, search_insert(nums,7))
 
 #time complexity: O(log n)
 #space complexity: O(1)
@@ -47,6 +49,9 @@ def search_floor_ceil(nums, target):
             
     return floor, ceil
 print("The floor of the target element %d is at index %d and the ceil is at index %d" % (target, *search_floor_ceil(nums, target)))
+# Additional example
+target2 = 11
+print("The floor of the target element %d is at index %d and the ceil is at index %d" % (target2, *search_floor_ceil(nums, target2)))
 
 
 #time complexity: O(log n)
@@ -140,8 +145,18 @@ if __name__ == "__main__":
     for row in matrix2:
         print(row)
 
+    # Additional example
+    matrix3 = [[1,2,3],[4,0,6],[7,8,9]]
+    print("\nOriginal matrix:")
+    for row in matrix3:
+        print(row)
+    
+    setZeroesOptimal(matrix3)
+    print("\nAfter setting zeroes:")
+    for row in matrix3:
+        print(row)
+
 #search insert position
 def printf(format, *args):  
     print(format % args)
 
-    #time complexity
