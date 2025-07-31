@@ -179,3 +179,4 @@ def convert(s: str, numRows: int) -> str:
     return ''.join(rows)
 
 #time complexity is O(n) where n is the length of the string s
+#space complexity is O(n) as well, for the storage of the rows
