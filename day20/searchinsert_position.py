@@ -177,4 +177,5 @@ def convert(s: str, numRows: int) -> str:
         index += step
 
     return ''.join(rows)
-    
+
+#time complexity is O(n) where n is the length of the string s
