@@ -143,3 +143,5 @@ if __name__ == "__main__":
 #search insert position
 def printf(format, *args):  
     print(format % args)
+
+    #time complexity
