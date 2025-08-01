@@ -181,3 +181,16 @@ def convert(s: str, numRows: int) -> str:
 #time complexity is O(n) where n is the length of the string s
 #space complexity is O(n) as well, for the storage of the rows
 # The overall complexity is efficient for the problem at hand.
+# Test the zigzag conversion function
+if __name__ == "__main__":
+    s = "PAYPALISHIRING"
+    numRows = 3
+    result = convert(s, numRows)
+    print(f"The zigzag conversion of '{s}' with {numRows} rows is: '{result}'")
+
+    # Additional example
+    s2 = "HELLOZIGZAG"
+    numRows2 = 4
+    result2 = convert(s2, numRows2)
+    print(f"The zigzag conversion of '{s2}' with {numRows2} rows is: '{result2}'")
+    
