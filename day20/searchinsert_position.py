@@ -228,3 +228,11 @@ if __name__ == "__main__":
     print(f"Longest consecutive sequence in {nums3}: {longest_consecutive(nums3)}")
 # The brute force solution checks each element against every other element, leading to O(n^2) time complexity.
 # The optimal solution uses a set to track elements, allowing for O(n) time complexity and
+# O(n) space complexity, which is significantly more efficient for larger datasets.
+    max_length = longest_consecutive(nums1)
+    print("Longest consecutive sequence length (optimal):", max_length)
+    max_length = longest_consecutive(nums2)
+    print("Longest consecutive sequence length (optimal):", max_length)
+    max_length = longest_consecutive(nums3)
+    print("Longest consecutive sequence length (optimal):", max_length)
+    
