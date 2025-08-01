@@ -213,4 +213,16 @@ def longest_consecutive(nums):
             max_length = max(max_length, current_length)
 
     return max_length
-    
+# Test the longest consecutive sequence function
+if __name__ == "__main__":
+    # Test case 1
+    nums1 = [100, 4, 200, 1, 3, 2]
+    print(f"Longest consecutive sequence in {nums1}: {longest_consecutive(nums1)}")
+
+    # Test case 2
+    nums2 = [0, 0, 1, 1, 2, 2, 3, 3]
+    print(f"Longest consecutive sequence in {nums2}: {longest_consecutive(nums2)}")
+
+    # Test case 3
+    nums3 = []
+    print(f"Longest consecutive sequence in {nums3}: {longest_consecutive(nums3)}")
