@@ -180,3 +180,4 @@ def convert(s: str, numRows: int) -> str:
 
 #time complexity is O(n) where n is the length of the string s
 #space complexity is O(n) as well, for the storage of the rows
+# The overall complexity is efficient for the problem at hand.
