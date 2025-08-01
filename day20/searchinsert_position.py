@@ -193,4 +193,24 @@ if __name__ == "__main__":
     numRows2 = 4
     result2 = convert(s2, numRows2)
     print(f"The zigzag conversion of '{s2}' with {numRows2} rows is: '{result2}'")
+# Longest consecutive sequence in an array
+def longest_consecutive(nums):  
+    if not nums:
+        return 0
+
+    num_set = set(nums)
+    max_length = 0
+
+    for num in num_set:
+        if num - 1 not in num_set:  # Only start counting from the beginning of a sequence
+            current_num = num
+            current_length = 1
+
+            while current_num + 1 in num_set:
+                current_num += 1
+                current_length += 1
+
+            max_length = max(max_length, current_length)
+
+    return max_length
     
