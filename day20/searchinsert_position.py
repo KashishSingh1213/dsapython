@@ -226,3 +226,5 @@ if __name__ == "__main__":
     # Test case 3
     nums3 = []
     print(f"Longest consecutive sequence in {nums3}: {longest_consecutive(nums3)}")
+# The brute force solution checks each element against every other element, leading to O(n^2) time complexity.
+# The optimal solution uses a set to track elements, allowing for O(n) time complexity and
