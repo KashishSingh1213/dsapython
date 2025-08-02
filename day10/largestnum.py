@@ -24,3 +24,4 @@ def find_second_largest(nums):
 print(find_second_largest(nums))
 
 #time complexity: O(n)
+#space complexity: O(1)
