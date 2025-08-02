@@ -27,3 +27,22 @@ print(find_second_largest(nums))
 #space complexity: O(1)
 #find the second largest number in array
 # This function iterates through the list once, keeping track of the largest and second largest numbers
+def setZeroesOptimal(matrix):
+    if not matrix or not matrix[0]:
+        return
+    
+    m, n = len(matrix), len(matrix[0])
+    row_zero = False
+    col_zero = False
+    
+    # Step 1: Check if first row and column need to be zeroed
+    for i in range(m):
+        if matrix[i][0] == 0:
+            col_zero = True
+            break
+    
+    for j in range(n):
+        if matrix[0][j] == 0:
+            row_zero = True
+            break
+            
