@@ -46,4 +46,6 @@ def extract_digits(n):
         digits.append(last_digit)
         n = n // 10
     return digits[::-1]  # Reverse to maintain original order
-    #
+    # Example number
+num = 12345 
+print("Extracted digits:", extract_digits(num))
