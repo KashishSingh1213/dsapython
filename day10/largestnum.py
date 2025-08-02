@@ -45,4 +45,10 @@ def setZeroesOptimal(matrix):
         if matrix[0][j] == 0:
             row_zero = True
             break
-            
+    # Step 2: Use first row and column to mark zeroes
+    for i in range(1, m):
+        for j in range(1, n):
+            if matrix[i][j] == 0:
+                matrix[i][0] = 0
+                matrix[0][j] = 0
+                
