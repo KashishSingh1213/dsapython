@@ -25,3 +25,5 @@ print(find_second_largest(nums))
 
 #time complexity: O(n)
 #space complexity: O(1)
+#find the second largest number in array
+# This function iterates through the list once, keeping track of the largest and second largest numbers
