@@ -22,3 +22,5 @@ def find_second_largest(nums):
             second_largest = num
     return second_largest
 print(find_second_largest(nums))
+
+#time complexity: O(n)
