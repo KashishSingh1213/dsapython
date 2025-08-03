@@ -81,3 +81,43 @@ def find_max(arr):
 input_array = [1, 2, 3, 4, 5]
 result = find_max(input_array)
 print(result)
+
+# Finding the minimum element in an array
+def find_min(arr):
+    min_value = arr[0]
+    for num in arr:
+        if num < min_value:
+            min_value = num
+    return min_value
+input_array = [1, 2, 3, 4, 5]
+result = find_min(input_array)
+print(result)
+def find_min_max(arr):
+    if not arr:
+        return None, None  # Handle empty array case
+    
+    min_value = arr[0]
+    max_value = arr[0]
+    
+    for num in arr:
+        if num < min_value:
+            min_value = num
+        if num > max_value:
+            max_value = num
+            
+    return min_value, max_value
+def find_min_max(arr):
+    if not arr:
+        return None, None  # Handle empty array case
+    
+    min_value = arr[0]
+    max_value = arr[0]
+    
+    for num in arr:
+        if num < min_value:
+            min_value = num
+        if num > max_value:
+            max_value = num
+            
+    return min_value, max_value
+    
