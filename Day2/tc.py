@@ -150,3 +150,18 @@ print("Minimum:", min_value)
 print("Maximum:", max_value)
 
 # Function to find the maximum and minimum elements in an array
+def find_min_max(arr):
+    if not arr:
+        return None, None  # Handle empty array case
+    
+    min_value = arr[0]
+    max_value = arr[0]
+    
+    for num in arr:
+        if num < min_value:
+            min_value = num
+        if num > max_value:
+            max_value = num
+            
+    return min_value, max_value
+    
