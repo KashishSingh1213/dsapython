@@ -122,3 +122,7 @@ def find_min_max(arr):
     return min_value, max_value
 
 # Example usage
+input_array = [1, 2, 3, 4, 5]
+min_value, max_value = find_min_max(input_array)
+print("Minimum:", min_value)
+print("Maximum:", max_value)
