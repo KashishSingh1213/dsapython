@@ -120,4 +120,5 @@ def find_min_max(arr):
             max_value = num
             
     return min_value, max_value
-    
+
+# Example usage
