@@ -33,3 +33,9 @@ def countFreq(arr, n):
     # Traverse through map and print frequencies
     for x in freq:
         print(x, freq[x])
+# Driver Code
+if __name__ == "__main__":
+    arr = [1, 2, 2, 3, 3, 3]
+    n = len(arr)
+    countFreq(arr, n)
+    
