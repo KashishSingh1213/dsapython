@@ -19,3 +19,4 @@ else:
     print("child")
 
 #for average time:- best case + worst case / 2
+# Python program for the above approach
