@@ -17,4 +17,5 @@ if age >= 16 and age < 24:
     print("students")
 else:
     print("child")
-    
+
+#for average time:- best case + worst case / 2
