@@ -38,4 +38,5 @@ if __name__ == "__main__":
     arr = [1, 2, 2, 3, 3, 3]
     n = len(arr)
     countFreq(arr, n)
-    
+
+# This code counts the frequency of each element in an array and prints the result.
