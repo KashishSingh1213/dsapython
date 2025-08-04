@@ -10,3 +10,11 @@ print("city",x)
 
 # This code takes user input for name, age, and city, and prints a message for each.
 # This code sets matrix elements to zero based on the presence of zeroes in the matrix.
+
+age = int(input("Enter your age: "))
+print("Age:", age)
+if age >= 16 and age < 24:
+    print("students")
+else:
+    print("child")
+    
