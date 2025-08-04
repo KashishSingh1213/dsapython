@@ -7,3 +7,5 @@ print("age",+x)
 
 x= input("enter your city")
 print("city",x)
+
+# This code takes user input for name, age, and city, and prints a message for each.
