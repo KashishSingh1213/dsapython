@@ -20,3 +20,16 @@ else:
 
 #for average time:- best case + worst case / 2
 # Python program for the above approach
+# Function to count frequencies of array items
+def countFreq(arr, n):
+    freq = dict()
+    
+    # Traverse through array elements and count frequencies
+    for i in arr:
+        if i not in freq:
+            freq[i] = 0
+        freq[i] += 1
+        
+    # Traverse through map and print frequencies
+    for x in freq:
+        print(x, freq[x])
