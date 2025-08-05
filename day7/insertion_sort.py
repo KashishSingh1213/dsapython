@@ -25,3 +25,6 @@ arr3 = [12, 4, 7, 3, 15, 2]
 print("\nOriginal array 3:", arr3)
 insertion_sort(arr3)
 print("Sorted array 3:", arr3)
+
+
+# This code implements the insertion sort algorithm to sort arrays.
