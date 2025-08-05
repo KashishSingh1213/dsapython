@@ -32,3 +32,4 @@ print("Sorted array 3:", arr3)
 # The function iterates through the array, inserting each element into its correct position in the sorted portion of the array.
 # Time complexity: O(n^2) in the worst case, O(n) in the best case
 # Space complexity: O(1) since it sorts in place
+# This code sorts an array using the insertion sort algorithm.
