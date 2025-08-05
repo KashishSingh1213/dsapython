@@ -29,3 +29,4 @@ print("Sorted array 3:", arr3)
 
 # This code implements the insertion sort algorithm to sort arrays.
 # It defines a function `insertion_sort` that sorts an array in place.
+# The function iterates through the array, inserting each element into its correct position in the sorted portion of the array.
