@@ -31,3 +31,4 @@ print("Sorted array 3:", arr3)
 # It defines a function `insertion_sort` that sorts an array in place.
 # The function iterates through the array, inserting each element into its correct position in the sorted portion of the array.
 # Time complexity: O(n^2) in the worst case, O(n) in the best case
+# Space complexity: O(1) since it sorts in place
