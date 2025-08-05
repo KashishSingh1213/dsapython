@@ -34,3 +34,4 @@ print("Sorted array 3:", arr3)
 # Space complexity: O(1) since it sorts in place
 # This code sorts an array using the insertion sort algorithm.
 # This code sorts an array using the insertion sort algorithm.
+# This code sorts an array using the insertion sort algorithm.
