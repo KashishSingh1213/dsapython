@@ -83,3 +83,4 @@ print(move_zeroes_to_end([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
 # The remaining elements are set to zero.
 # Example outputs:
 # The array [0, 1, 0, 3, 12] becomes
+# [1, 3, 12, 0, 0] after moving zeroes to the end.
