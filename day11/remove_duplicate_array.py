@@ -84,3 +84,4 @@ print(move_zeroes_to_end([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
 # Example outputs:
 # The array [0, 1, 0, 3, 12] becomes
 # [1, 3, 12, 0, 0] after moving zeroes to the end.
+# This code implements the right and left rotation of an array, as well as removing duplicates and moving zeroes to the end.
