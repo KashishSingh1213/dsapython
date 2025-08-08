@@ -20,4 +20,24 @@ class matrix:
     def __str__(self):
         return '\n'.join([' '.join(map(str, row)) for row in self.data])
 
-        
+
+# Creating a 2D matrix (list of lists)
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Printing the matrix
+print("Matrix:")
+for row in matrix:
+    print(row)
+
+# Accessing an element
+print("\nElement at row 2, col 3:", matrix[1][2])  # Indexing starts from 0
+
+# Modifying an element
+matrix[0][0] = 10
+print("\nModified Matrix:")
+for row in matrix:
+    print(row)
