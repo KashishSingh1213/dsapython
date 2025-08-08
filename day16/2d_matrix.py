@@ -41,3 +41,5 @@ matrix[0][0] = 10
 print("\nModified Matrix:")
 for row in matrix:
     print(row)
+
+# Using the matrix class
