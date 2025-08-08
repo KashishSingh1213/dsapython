@@ -43,3 +43,4 @@ for row in matrix:
     print(row)
 
 # Using the matrix class
+m = matrix(3, 3)
