@@ -28,3 +28,5 @@ print("Longest palindrome substring:", longestPalindrome("cbbd"))    # Example u
 # explanation
 # time complexity: O(n^2)
 # space complexity: O(1)
+# explanation: The algorithm checks all possible centers for palindromes and expands around them,
+# leading to a quadratic time complexity. The space complexity is constant since we only use a few variables.
