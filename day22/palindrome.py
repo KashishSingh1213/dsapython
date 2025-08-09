@@ -31,3 +31,15 @@ print("Longest palindrome substring:", longestPalindrome("cbbd"))    # Example u
 # explanation: The algorithm checks all possible centers for palindromes and expands around them,
 # leading to a quadratic time complexity. The space complexity is constant since we only use a few variables.
 # Test cases
+if __name__ == "__main__":
+    # Test case 1
+    print(longestPalindrome("babad"))  # Expected output: "bab" or "aba"
+
+    # Test case 2
+    print(longestPalindrome("cbbd"))   # Expected output: "bb"
+
+    # Test case 3
+    print(longestPalindrome("a"))      # Expected output: "a"
+
+    # Test case 4
+    print(longestPalindrome("ac"))     # Expected output: "a" or "c"
