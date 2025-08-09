@@ -43,3 +43,4 @@ if __name__ == "__main__":
 
     # Test case 4
     print(longestPalindrome("ac"))     # Expected output: "a" or "c"
+    # Test case 5
