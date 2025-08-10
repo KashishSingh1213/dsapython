@@ -22,3 +22,4 @@ selection_sort(arr2)
 print("Sorted array 2:", arr2)
 
 
+#explaintion
