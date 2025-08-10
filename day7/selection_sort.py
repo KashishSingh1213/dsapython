@@ -23,3 +23,4 @@ print("Sorted array 2:", arr2)
 
 
 #explaintion
+# Time complexity: O(n^2)
