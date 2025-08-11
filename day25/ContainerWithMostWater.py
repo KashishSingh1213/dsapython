@@ -48,3 +48,4 @@ if __name__ == "__main__":
     #explanation
     # Time complexity: O(n)
     # Space complexity: O(1)
+# The two-pointer technique is used to find the maximum area of water that can be contained between the lines represented by the heights.
