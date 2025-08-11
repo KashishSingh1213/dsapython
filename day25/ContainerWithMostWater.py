@@ -46,3 +46,5 @@ if __name__ == "__main__":
     print("Test case 6 result:", maxArea(heights6))  # Expected: 12
 
     #explanation
+    # Time complexity: O(n)
+    # Space complexity: O(1)
