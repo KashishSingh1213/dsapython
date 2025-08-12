@@ -54,3 +54,4 @@ if __name__ == "__main__":
 # The two-pointer technique is efficient for this problem, allowing us to find the solution in linear time.
 # Selection sort is not applicable here as we are not sorting the array but finding the maximum area.
 # The two-pointer technique is efficient for this problem, allowing us to find the solution in linear time.
+# The two-pointer technique is efficient for this problem, allowing us to find the solution in linear time.
