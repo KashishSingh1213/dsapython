@@ -95,3 +95,4 @@ else:
     # Space complexity: O(1)
 # The function checks if a number is a palindrome by reversing it and comparing it to the original.
 # The algorithm runs in linear time, as it processes each digit of the number once.
+# The space complexity is constant, as we are using a fixed amount of extra space.
