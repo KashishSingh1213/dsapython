@@ -89,3 +89,7 @@ if is_palindrome(number):
     print(f"{number} is a palindrome.")
 else:
     print(f"{number} is not a palindrome.")
+
+    # Explanation
+    # Time complexity: O(n)
+    # Space complexity: O(1)
