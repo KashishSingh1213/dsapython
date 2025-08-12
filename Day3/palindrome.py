@@ -93,3 +93,4 @@ else:
     # Explanation
     # Time complexity: O(n)
     # Space complexity: O(1)
+# The function checks if a number is a palindrome by reversing it and comparing it to the original.
