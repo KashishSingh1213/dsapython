@@ -99,3 +99,7 @@ else:
 ## Example number
 num = 1234321
 # Check and print result
+if is_palindrome(num):
+    print(f"{num} is a palindrome.")
+else:
+    print(f"{num} is not a palindrome.")
