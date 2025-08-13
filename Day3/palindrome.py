@@ -97,3 +97,5 @@ else:
 # The algorithm runs in linear time, as it processes each digit of the number once.
 # The space complexity is constant, as we are using a fixed amount of extra space.
 ## Example number
+num = 1234321
+# Check and print result
