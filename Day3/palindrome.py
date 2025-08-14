@@ -132,3 +132,7 @@ if is_palindrome(num):
     print(f"{num} is a palindrome.")
 else:
     print(f"{num} is not a palindrome.")
+
+#time complexity
+# The time complexity of the is_palindrome function is O(n), where n is the number of digits in the input number.
+# This is because the function processes each digit of the number exactly once.
