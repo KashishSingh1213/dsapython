@@ -136,3 +136,4 @@ else:
 #time complexity
 # The time complexity of the is_palindrome function is O(n), where n is the number of digits in the input number.
 # This is because the function processes each digit of the number exactly once.
+# The space complexity is O(1) since it uses a fixed amount of extra space regardless of the input size.
