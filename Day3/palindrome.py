@@ -156,3 +156,4 @@ def is_palindrome(n):
         n = n // 10
 
     return original == reverse
+# Example usage
