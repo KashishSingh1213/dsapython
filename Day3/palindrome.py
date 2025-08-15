@@ -137,3 +137,10 @@ else:
 # The time complexity of the is_palindrome function is O(n), where n is the number of digits in the input number.
 # This is because the function processes each digit of the number exactly once.
 # The space complexity is O(1) since it uses a fixed amount of extra space regardless of the input size.
+# Example number
+num = 1234321
+# Check and print result
+if is_palindrome(num):
+    print(f"{num} is a palindrome.")
+else:
+    print(f"{num} is not a palindrome.")
