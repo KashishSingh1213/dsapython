@@ -25,3 +25,4 @@ else:
 
     #explantion
     # if marks is greater than 90, print "grade A"
+    elif(marks>80):
