@@ -31,4 +31,5 @@ else:
     # if marks is greater than 80, print "grade B"
     elif(marks>70):
         print("grade C")
-        
+
+    # if marks is greater than 70, print "grade C"
