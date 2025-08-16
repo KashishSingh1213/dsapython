@@ -24,3 +24,4 @@ else:
     print("grade A")
 
     #explantion
+    # if marks is greater than 90, print "grade A"
