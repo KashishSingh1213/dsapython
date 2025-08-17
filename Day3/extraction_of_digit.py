@@ -59,3 +59,6 @@ elif num < 0:
 else:
     print("Zero")
 # Example of extracting digits from a number
+# Example number
+num = 12345
+print("Extracted digits:", extract_digits(num))
