@@ -42,3 +42,5 @@ else:
 
     # if marks is less than or equal to 60, print "grade F"
     
+    #time complexity
+# O(1) - constant time complexity, as it checks a fixed number of conditions regardless of input size.
