@@ -58,3 +58,4 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
+# Example of extracting digits from a number
