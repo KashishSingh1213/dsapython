@@ -44,3 +44,4 @@ else:
     
     #time complexity
 # O(1) - constant time complexity, as it checks a fixed number of conditions regardless of input size.
+# Space complexity
