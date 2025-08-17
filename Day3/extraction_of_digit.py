@@ -49,3 +49,12 @@ def extract_digits(n):
     # Example number
 num = 12345 
 print("Extracted digits:", extract_digits(num))
+
+# Example of if-else statement
+num = 10
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
