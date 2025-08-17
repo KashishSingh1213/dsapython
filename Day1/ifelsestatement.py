@@ -45,3 +45,4 @@ else:
     #time complexity
 # O(1) - constant time complexity, as it checks a fixed number of conditions regardless of input size.
 # Space complexity
+# O(1) - constant space complexity, as it uses a fixed amount of space for variables regardless of input size.
