@@ -29,3 +29,4 @@ print("Frequency of 5:", hashmap.get(5, 0))  # Get frequency of 5, default to 0 
 # In this code, we are using a dictionary (hashmap) to count the frequency of each number in the list.
 # We iterate through each number in the list and update its count in the hashmap.
 # Finally, we print the entire frequency map and also demonstrate how to get the frequency of a specific number (5 in this case).
+#example of if-else statement
