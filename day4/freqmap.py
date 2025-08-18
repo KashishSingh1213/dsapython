@@ -42,3 +42,4 @@ else:
     print("The number is less than zero.")
 
 #time complexity
+# The time complexity of the above code is O(n), where n is the number of elements in the list.
