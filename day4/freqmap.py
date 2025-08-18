@@ -31,3 +31,12 @@ print("Frequency of 5:", hashmap.get(5, 0))  # Get frequency of 5, default to 0 
 # Finally, we print the entire frequency map and also demonstrate how to get the frequency of a specific number (5 in this case).
 #example of if-else statement
 num = 10
+if num > 0:
+    print("Positive")
+    print("The number is greater than zero.")
+elif num == 0:
+    print("Zero")
+    print("The number is equal to zero.")
+else:
+    print("Negative")
+    print("The number is less than zero.")
