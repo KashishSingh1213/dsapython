@@ -43,3 +43,4 @@ else:
 
 #time complexity
 # The time complexity of the above code is O(n), where n is the number of elements in the list.
+# This is because we are iterating through the list once to build the frequency map.
