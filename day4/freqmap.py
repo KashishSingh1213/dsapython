@@ -40,3 +40,5 @@ elif num == 0:
 else:
     print("Negative")
     print("The number is less than zero.")
+
+#time complexity
