@@ -27,3 +27,4 @@ print("Sorted array 2:", arr2)
 # Space complexity: O(1)
 # Explanation: The selection sort algorithm repeatedly finds the minimum element from the unsorted part of the array and swaps it with the first unsorted element. This results in a time complexity of O(n^2) due to the nested loops, while the space complexity is O(1) since it sorts the array in place.
 # Time complexity: O(n^2)
+# Space complexity: O(1)
