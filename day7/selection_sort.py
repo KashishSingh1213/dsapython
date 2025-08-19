@@ -30,3 +30,4 @@ print("Sorted array 2:", arr2)
 # Space complexity: O(1)
 # The selection sort algorithm is a simple sorting algorithm that divides the input list into two parts: a sorted part and an unsorted part. It repeatedly selects the smallest (or largest, depending on the order) element from the unsorted part and moves it to the end of the sorted part.
 #explain steps
+# 1. Start with the first element as the minimum.
