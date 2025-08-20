@@ -54,3 +54,4 @@ def setZeroesOptimal(matrix):
 
 #time complexity
     # O(m * n)
+#space complexity
