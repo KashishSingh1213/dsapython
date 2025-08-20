@@ -56,3 +56,10 @@ def setZeroesOptimal(matrix):
     # O(m * n)
 #space complexity
 # O(1)
+
+#explain each steps
+# 1. The first step checks if the first row and first column need to be zeroed. If any element in the first row is zero, we set `row_zero` to True. Similarly, if any element in the first column is zero, we set `col_zero` to True.
+
+# 2. The second step uses the first row and first column to mark which rows and columns need to be zeroed. If we find a zero in the matrix, we mark the corresponding row and column in the first row and first column.
+
+# 3. Finally, we zero out the marked rows and columns. If `row_zero` is True, we zero out the entire first row. If `col_zero` is True, we zero out the entire first column.
