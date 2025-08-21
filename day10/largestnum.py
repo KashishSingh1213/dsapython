@@ -63,3 +63,12 @@ def setZeroesOptimal(matrix):
 # 2. The second step uses the first row and first column to mark which rows and columns need to be zeroed. If we find a zero in the matrix, we mark the corresponding row and column in the first row and first column.
 
 # 3. Finally, we zero out the marked rows and columns. If `row_zero` is True, we zero out the entire first row. If `col_zero` is True, we zero out the entire first column.
+
+#more example
+matrix = [
+    [1, 2, 3],
+    [4, 0, 6],
+    [7, 8, 9]
+]
+setZeroesOptimal(matrix)
+print(matrix)  # Output: [[1, 0, 3], [0, 0, 0], [7, 0, 9]]
