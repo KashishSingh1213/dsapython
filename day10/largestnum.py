@@ -75,3 +75,4 @@ print(matrix)  # Output: [[1, 0, 3], [0, 0, 0], [7, 0, 9]]
 # This function sets the entire row and column to zero if any element in that row or column is zero
 # This function iterates through the matrix to set entire rows and columns to zero if any element in that row or column is zero
 # This is an optimal solution with O(m * n) time complexity and O(1) space complexity
+# This function sets the entire row and column to zero if any element in that row or column is zero
