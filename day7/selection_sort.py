@@ -32,3 +32,4 @@ print("Sorted array 2:", arr2)
 #explain steps
 # 1. Start with the first element as the minimum.
 # 2. Compare it with the rest of the elements to find the smallest one.
+# 3. Swap the found minimum element with the first unsorted element.
