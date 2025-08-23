@@ -19,3 +19,4 @@ print("Max consecutive ones:", max_count)
 # The function find_max_consecutive_ones counts the maximum number of consecutive ones in a binary array.
 
 # Time complexity: O(n)
+# Space complexity: O(1)
