@@ -34,3 +34,4 @@ print("Sorted array 2:", arr2)
 # 2. Compare it with the rest of the elements to find the smallest one.
 # 3. Swap the found minimum element with the first unsorted element.
 # 4. Move the boundary of the sorted part one element to the right.
+# 5. Repeat the process until the entire array is sorted.
