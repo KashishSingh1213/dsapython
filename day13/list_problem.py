@@ -20,3 +20,4 @@ print("Max consecutive ones:", max_count)
 
 # Time complexity: O(n)
 # Space complexity: O(1)
+# Explanation: The code iterates through the list of numbers and counts consecutive ones. When a zero is encountered, the count resets. The maximum count of consecutive ones is updated whenever a longer sequence is found. This results in a time complexity of O(n) since we traverse the list once, and a space complexity of O(1) as we use only a fixed amount of extra space for counting.
