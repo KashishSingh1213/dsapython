@@ -42,3 +42,4 @@ for i, (nums, expected) in enumerate(test_cases):
             count = 0
     assert max_count == expected, f"Test case {i+1} failed: expected {expected}, got {max_count}"
 #add new test cases
+# The function find_max_consecutive_ones counts the maximum number of consecutive ones in a binary array.
