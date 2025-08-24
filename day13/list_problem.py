@@ -41,3 +41,4 @@ for i, (nums, expected) in enumerate(test_cases):
         else:
             count = 0
     assert max_count == expected, f"Test case {i+1} failed: expected {expected}, got {max_count}"
+#add new test cases
