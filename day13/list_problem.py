@@ -44,3 +44,4 @@ for i, (nums, expected) in enumerate(test_cases):
 #add new test cases
 # The function find_max_consecutive_ones counts the maximum number of consecutive ones in a binary array.
 # Time complexity: O(n)
+# Space complexity: O(1)
