@@ -36,3 +36,5 @@ print(two_sum(nums2, target2))  # Output: [] (no two numbers sum to 8)
 # In this case, the function iterates through the list but finds no two numbers that add
 
 # up to the target value of 8, so it returns an empty list.
+
+#time complexity
