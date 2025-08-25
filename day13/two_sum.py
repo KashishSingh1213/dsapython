@@ -38,3 +38,4 @@ print(two_sum(nums2, target2))  # Output: [] (no two numbers sum to 8)
 # up to the target value of 8, so it returns an empty list.
 
 #time complexity
+# Time complexity: O(n)
