@@ -41,3 +41,5 @@ print(two_sum(nums2, target2))  # Output: [] (no two numbers sum to 8)
 # Time complexity: O(n)
 #space complexity 
 # Space complexity: O(n)
+
+#another example 
