@@ -50,3 +50,4 @@ print(two_sum(nums3, target3))  # Output: [1, 2] (because nums[1] + nums[2] = 2 
 # In this case, the function finds that nums[1] + nums[2] equals the target value of 6, so it returns the indices [1, 2].
 #time complexity
 # Time complexity: O(n)
+# Space complexity: O(n)
