@@ -53,4 +53,11 @@ print(two_sum(nums3, target3))  # Output: [1, 2] (because nums[1] + nums[2] = 2 
 # Space complexity: O(n)
 
 #another example
-
+nums4 = [1, 5, 3, 7]
+target4 = 10
+print(two_sum(nums4, target4))  # Output: [1, 3] (because nums[1] + nums[3] = 5 + 7 = 10)
+# Explanation:
+# In this case, the function finds that nums[1] + nums[3] equals the target value of 10, so it returns the indices [1, 3].
+#time complexity
+# Time complexity: O(n)
+# Space complexity: O(n)
