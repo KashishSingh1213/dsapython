@@ -51,3 +51,6 @@ print(two_sum(nums3, target3))  # Output: [1, 2] (because nums[1] + nums[2] = 2 
 #time complexity
 # Time complexity: O(n)
 # Space complexity: O(n)
+
+#another example
+
