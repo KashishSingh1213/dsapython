@@ -45,4 +45,11 @@ arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 print("Maximum Subarray Sum:", max_subarray_sum(arr))
 
 
-#explantion
+# #explantion
+# At each element, we have two choices:
+
+# Start a new subarray from this element.
+
+# Or, extend the previous subarray by adding this element.
+
+# We always choose the option that gives a larger sum.
