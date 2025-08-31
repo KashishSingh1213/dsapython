@@ -48,3 +48,5 @@ def rearrange_array_by_sign(arr):
     rearranged.extend(positive[i:])
     rearranged.extend(negative[j:])
     return rearranged
+
+#time complexity
