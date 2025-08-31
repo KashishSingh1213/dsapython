@@ -50,3 +50,4 @@ def rearrange_array_by_sign(arr):
     return rearranged
 
 #time complexity
+# O(N)
